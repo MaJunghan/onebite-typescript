@@ -4,10 +4,10 @@
     "module": "ESNext",
     "outDir": "dist",
     "strict": true,
-    "moduleDetection": "force"
+    "moduleDetection": "force" // ts파일은 전역모듈로 만들어지는데 import나 export를 사용하면 독립적으로 변함 => 자동으로 export해주는 옵션
   },
   "ts-node": {
     "esm": true
   },
-  "include": ["src"] // src안에 요소를 컴파일
+  "include": ["src"]
 }
