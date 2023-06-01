@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    // "strictNullChecks": false, // 보통은 strict 값따라감, number이나 초기값을 null로 할당하게해주는 옵션
+    "moduleDetection": "force" // ts파일은 전역모듈로 만들어지는데 import나 export를 사용하면 독립적으로 변함 => 자동으로 export해주는 옵션
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
