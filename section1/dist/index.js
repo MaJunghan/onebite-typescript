@@ -1,2 +1,3 @@
 console.log('hello typescript');
-const a: number = 1;
+const a = 1;
+export {};
