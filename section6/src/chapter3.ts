@@ -9,6 +9,7 @@ interface CharacterInterface {
 }
 
 class Character implements CharacterInterface {
+  // 인터페이스로 구현하는것은 접근제어자가 무조건 public임, 다른것은 생성자에서 직접 구현
   constructor(public name: string, public moveSpeed: number) {
     this.name = name;
     this.moveSpeed = moveSpeed;
