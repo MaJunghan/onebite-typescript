@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 컴파일할 js version (ESNext 최신버전)
+    "module": "ESNext", // common.js와 es module 선택
+    "outDir": "dist", // 컴파일된 js 파일 경로
+    "strict": true, // 엄격한 타입 검사
+    // "strictNullChecks": false, // 보통은 strict 값따라감, number이나 초기값을 null로 할당하게해주는 옵션
+    "moduleDetection": "force" // ts파일은 전역모듈로 만들어지는데 import나 export를 사용하면 독립적으로 변함 => 자동으로 export해주는 옵션
+  },
+  "ts-node": {
+    "esm": true // ts-node로 실행할때 es module option true
+  },
+  "include": ["src"] // src안에 ts파일들을 컴파일하겠다.
+}
