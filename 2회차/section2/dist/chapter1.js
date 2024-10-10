@@ -15,6 +15,9 @@ let bool2 = false;
 let null1 = null;
 // undefined
 let unde1 = undefined;
-export {};
 // strictNullChecks option
 // let numA: number = null
+// 리터널 타입
+let numA = 10;
+let strA = "hello";
+export {};
