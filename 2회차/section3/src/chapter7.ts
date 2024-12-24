@@ -21,7 +21,7 @@ function func(value: number | string | Date | null | Person) {
     } else if(value instanceof Date) {
         console.log(value.getTime())
     } else if(value && 'age' in value) {
-        console.log()
+        console.log(`${value.name}은 ${value.age}살 입니다`)
     }
 }
 
