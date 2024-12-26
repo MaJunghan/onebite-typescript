@@ -10,7 +10,7 @@ const multiply: Operation = (a, b) => a * b
 const divide: Operation = (a, b) => a / b
 
 /**
- * 호출 시그니쳐
+ * 호출 시그니쳐 (콜 시그니쳐)
  */
 
 type Operation2 = {
