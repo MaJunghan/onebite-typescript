@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force"
+  },
+  "ts-node": {
+    "esm": true // ts-node로 실행할때 es module option true
+  },
+  "include": ["src"] // src안에 ts파일들을 컴파일하겠다.
+}
